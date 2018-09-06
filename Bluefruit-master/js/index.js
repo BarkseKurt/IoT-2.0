@@ -58,10 +58,10 @@ function onDiscoverDevice(device){
 	//Make a list in html and show devises
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
-		
+		if(device.name=="BedRest"){
 			listItem.innerHTML = html;
 			document.getElementById("bleDeviceList").appendChild(listItem);
-		
+		}
 }
 
 
