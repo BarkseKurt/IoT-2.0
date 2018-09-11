@@ -9,7 +9,7 @@
 		<link rel = "stylesheet" type = "text/css" href = "format.css">   <!-- Link to style sheet named format.css -->
 		<script type="text/javascript" src="cordova.js"></script> 
         <script type="text/javascript" src="js/index.js"></script>
-        <title>Beacon</title>
+        <title>BedRest</title>
     </head>
      <body onload="onLoad()">
 
@@ -22,10 +22,10 @@
 		<div id="bleId">DeviceId:</div>
 		<div id="debugDiv"></div>
 		<br><br>
-		<h1>Temperatur</h1><div id="receiveDiv"></div>
-		<button id="ledOnButton" onclick = "data('1')">+</button>
-		<br><br>
-		<button id="ledOffButton" onclick = "data('0')">-</button>
+		<center><div id="receiveDiv"></div></center>
+		<center><button id="ledOnButton" onclick = "data('1')">+</button></center>
+		
+		<center><button id="ledOffButton" onclick = "data('0')">-</button></center>
 		<br><br><br>
 		<!--<input type="text" id="messageInput" value="Hello"/>
 		<br>
@@ -33,9 +33,9 @@
 		<br>
 		-->
 		
-		<button id="ledOnButton" onclick = "data('1')">Madplan</button>
-		<br><br>
-		<button id="ledOnButton" onclick = "data('1')">Aftaler</button>
+		<center><button id="ledOnButton" onclick = "data('1')">Madplan</button></center>
+		<br>
+		<center><button id="ledOnButton" onclick = "data('1')">Aftaler</button></center>
 		<br><br>
 		<br>
 		<div id="sendDiv"></div>
