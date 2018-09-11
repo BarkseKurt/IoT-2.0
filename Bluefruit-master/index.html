@@ -13,7 +13,7 @@
     </head>
      <body onload="onLoad()">
 
-		<h1><center>Indsæt Bedrest logo</center></h1>
+		<h1><center><img src="Bedrestlogo.png"></center></h1>
            
 		<ul id="bleDeviceList"> </ul>  
 		<button id="refreshButton" onClick = "refreshDeviceList()">Opdater</button>
@@ -22,6 +22,7 @@
 		<div id="bleId">DeviceId:</div>
 		<div id="debugDiv"></div>
 		<br><br>
+		<h1>Temperatur</h1><div id="receiveDiv"></div>
 		<button id="ledOnButton" onclick = "data('1')">+</button>
 		<br><br>
 		<button id="ledOffButton" onclick = "data('0')">-</button>
@@ -31,11 +32,16 @@
 		<button id="sendButton" onclick = "sendData()">Send</button>
 		<br>
 		-->
+		
+		<button id="ledOnButton" onclick = "data('1')">Madplan</button>
+		<br><br>
+		<button id="ledOnButton" onclick = "data('1')">Aftaler</button>
+		<br><br>
 		<br>
 		<div id="sendDiv"></div>
 		<br><br>
 		<button id="disconnectButton"onClick="disconnect()">Disconnect</button>
-		<div id="receiveDiv"></div>
+		
     </body>
 </html>
 			
